@@ -1,0 +1,35 @@
+{% extends 'base.html' %}
+
+{% block title %}
+	Artigo | {{ block.super}}
+{% endblock title %}
+
+{% block container %}
+<div class="page-header">
+      <h1>Artigo do Dia</h1>
+    </div>
+    <div class="row">
+      <div class="col-sm-4">
+          <a href="#" class="thumbnail">
+              <img src="http://placehold.it/350x250" alt="" />
+          </a>
+      </div>
+      <div class="col-sm-8">
+      <div>
+        <h2>Maturidade Espiritual</h2>
+      </div>
+          <dl>
+            <dt>Crescimento Pessoal</dt>
+            <dd>Toda reflexão deve ser bem vinda, e nos dá chances
+                para o crescimento emocional e pessoal... Será esse o
+                caminho para encontrar o que se procura na vida? Solidez
+                 e autoconhecimento!</dd>
+            <dt>Reflito sempre sobre minha vida, isso me dá chances para o meu crescimento emocional e pessoal</dt>
+            <dd>A dúvida é traiçoeira. Ela impede o nosso crescimento pessoal, profissional e espiritual.</dd>
+            <dt>As mudanças são inevitáveis e necessárias para nosso desenvolvimento pessoal e crescimento espiritual.</dt>
+            <dd>Crescer custa, demora, esfola, mas compensa. É uma vitória secreta, sem testemunhas. O adversário somos nós mesmos...</dd>
+            <dt>Os covardes nunca tentam, os fracassados nunca terminam, os vencedores nunca desistem.</dt>
+          </dl>
+      </div>
+    </div>
+{% endblock container %}
